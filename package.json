@@ -1,0 +1,30 @@
+{
+  "name": "is-geotiff",
+  "version": "0.0.0",
+  "description": "Super Light and Fast Method for Checking if a TIFF is a GeoTIFF",
+  "main": "is-geotiff.js",
+  "scripts": {
+    "format": "npx prettier --arrow-parens=avoid --trailing-comma=none --write *.js",
+    "test": "ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeoTIFF/is-geotiff.git"
+  },
+  "keywords": [
+    "geotiff",
+    "tiff"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/GeoTIFF/is-geotiff/issues"
+  },
+  "homepage": "https://github.com/GeoTIFF/is-geotiff#readme",
+  "dependencies": {
+    "has-bytes": "0.0.2"
+  },
+  "devDependencies": {
+    "ava": "^3.13.0"
+  }
+}
